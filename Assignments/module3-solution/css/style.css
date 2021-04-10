@@ -1,0 +1,85 @@
+#header-nav {
+    background-color:#999;
+    border-bottom: 4px solid;
+    border-color: black;
+  }
+
+  p {
+      margin: 0px;
+  }
+
+  .menu {
+      border-top: none;
+      box-shadow: none;
+  }
+
+  .navbar-default .navbar-toggle.ham {
+    margin: 18px 17px 15px 15px;
+    border: 3px solid;
+    border-color: black;
+  }
+
+  .navbar-default .navbar-toggle .icon-bar.line {
+      background-color: black;
+      height: 4px;
+      
+  }
+
+  .option {
+      background-color: white;
+      border-bottom: 3px solid black;
+      padding: 5px;
+  }
+  
+  .option:last-child {
+      border: none;
+  }
+
+
+  .heading {
+      
+      text-align: center;
+      margin-bottom: 20px;
+      
+  }
+  .heading p {
+    font-size: 33px;
+    font-weight: 700;
+  }
+  .para {
+      padding-left: 50px;
+      padding-right: 50px;
+      background-color: gray;
+      color: black;
+      margin-left: 4%;
+      margin-right: 4%;
+  }
+
+  .listing {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .space {
+      margin-left: 15px;
+      
+  }
+
+  .sub-heading {
+      font-size: 28px;
+      text-align: center;
+      font-weight: 400;
+  }
+  @media (max-width: 767px) {
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  
+  ul {
+    list-style: none;
+  }
+
+  
+}
